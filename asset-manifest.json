@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/activeportfolio/static/css/main.f62b4def.chunk.css",
+    "main.js": "/activeportfolio/static/js/main.788d8b06.chunk.js",
+    "main.js.map": "/activeportfolio/static/js/main.788d8b06.chunk.js.map",
+    "runtime-main.js": "/activeportfolio/static/js/runtime-main.e8e27abe.js",
+    "runtime-main.js.map": "/activeportfolio/static/js/runtime-main.e8e27abe.js.map",
+    "static/js/2.4843575d.chunk.js": "/activeportfolio/static/js/2.4843575d.chunk.js",
+    "static/js/2.4843575d.chunk.js.map": "/activeportfolio/static/js/2.4843575d.chunk.js.map",
+    "static/js/3.788efc41.chunk.js": "/activeportfolio/static/js/3.788efc41.chunk.js",
+    "static/js/3.788efc41.chunk.js.map": "/activeportfolio/static/js/3.788efc41.chunk.js.map",
+    "index.html": "/activeportfolio/index.html",
+    "static/css/main.f62b4def.chunk.css.map": "/activeportfolio/static/css/main.f62b4def.chunk.css.map",
+    "static/js/2.4843575d.chunk.js.LICENSE.txt": "/activeportfolio/static/js/2.4843575d.chunk.js.LICENSE.txt",
+    "static/media/apps.scss": "/activeportfolio/static/media/Background.c9667fcb.png",
+    "static/media/about-img.37399c4f.png": "/activeportfolio/static/media/about-img.37399c4f.png",
+    "static/media/App.scss": "/activeportfolio/static/media/contact-map.7dcf81c6.png",
+    "static/media/dummy-project.e70d31e7.jpg": "/activeportfolio/static/media/dummy-project.e70d31e7.jpg",
+    "static/media/skills-figma.732a105a.png": "/activeportfolio/static/media/skills-figma.732a105a.png",
+    "static/media/skills-php.9fbba4ae.png": "/activeportfolio/static/media/skills-php.9fbba4ae.png",
+    "static/media/skills-react.fb491629.png": "/activeportfolio/static/media/skills-react.fb491629.png",
+    "static/media/skills-sass.253ed17f.png": "/activeportfolio/static/media/skills-sass.253ed17f.png",
+    "static/media/skills-vscode.e977b211.png": "/activeportfolio/static/media/skills-vscode.e977b211.png",
+    "static/media/thumbnail-project.b4826c26.jpg": "/activeportfolio/static/media/thumbnail-project.b4826c26.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e8e27abe.js",
+    "static/js/2.4843575d.chunk.js",
+    "static/css/main.f62b4def.chunk.css",
+    "static/js/main.788d8b06.chunk.js"
+  ]
+}
