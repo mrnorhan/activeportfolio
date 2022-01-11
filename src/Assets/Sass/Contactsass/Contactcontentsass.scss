@@ -1,0 +1,81 @@
+#Contactcontent-id{
+    padding: 0 10rem;
+    .container-fluid{
+        .row{
+            .col-lg-6{
+                .padding-left{
+                    padding-right: 2rem;
+                }
+                h1{
+                    font-size: 2rem;
+                    font-family: Poppins;
+                    font-weight: 600;
+                    color: $accentlight;
+                    padding-bottom: .5rem;
+                }
+                h2{
+                    font-size: 2rem;
+                    font-family: Montserrat;
+                    font-weight: 400;
+                    color: $secondary;
+                    padding-bottom: 3rem;
+                }
+                h3{
+                    font-size: 3rem;
+                    font-family: Montserrat;
+                    font-weight: 500;
+                    color: $secondary;
+                    padding-bottom: 3rem;
+                    span{
+                        color: $accentlight;
+                    }
+                }
+                i{
+                    color: $secondary;
+                    font-size: 3rem;
+                    &:hover{
+                        transition-timing-function: ease-in-out;
+                        transition: .3s;
+                        color: $accentlight;
+                    }
+                }
+                .left-distance{
+                    margin-left: 2.5rem;
+                }
+                input, textarea{
+                    width: 100%;
+                    border-radius: 0;
+                    font-size: 16px;
+                    padding: 1rem;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 4px solid $secondary;
+                    background-color: transparent;
+                    color: $secondary;
+                    margin-bottom: 1.5rem;
+                    resize: none;
+                }
+                button{
+                    padding: 18px 64px;
+                    font-size: 16px;
+                    font-family: 600;
+                    font-family: Montserrat;
+                    border: 2px solid $accentlight;
+                    border-radius: 0;
+                }
+                .btn-submit{
+                    background-color: $accentlight;
+                    color: $primary;
+                    &:hover{
+                        transition-timing-function: ease-in-out;
+                        transition: .3s;
+                        background-color: $secondary;
+                        border: 2px solid $secondary;
+                        color: $accentdark;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+#Workproject-id{
+    .col-md-12{
+        color: $secondary;
+        padding: 0 6rem 6rem;
+        .task-css{
+            padding: 1rem;
+            background-color: grey;
+            margin-top: .5rem;
+        }
+        .task-reminder{
+            border-left: 5px solid green;
+        }
+    }
+    .container-fluid{
+        .row{
+            .col-lg-6{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: $secondary;
+                img{
+                    margin-left: auto;
+                }
+                h1{
+                    font-size: 6rem;
+                    font-family: Poppins;
+                    font-weight: 600;
+                    margin-top: -1.5rem;
+                    span{
+                        font-size: 2.5rem;
+                        font-family: Montserrat;
+                        font-weight: 400;
+                        color: $accentlight;
+                    }
+                }
+                i{
+                    color: $accentlight;
+                    font-size: 3rem;
+                    padding: .5rem 0 4rem;
+                }
+                .left-distance{
+                    margin-left: 2rem;
+                }
+                button{
+                    padding: 18px 32px;
+                    font-size: 16px;
+                    font-family: 600;
+                    font-family: Montserrat;
+                    border: 2px solid $accentlight;
+                }
+                .btn-view-website{
+                    background-color: $accentlight;
+                    color: $primary;
+                    &:hover{
+                        transition-timing-function: ease-in-out;
+                        transition: .3s;
+                        background-color: $secondary;
+                        border: 2px solid $secondary;
+                        color: $accentdark;
+                    }
+                }
+                .btn-view-mockup{
+                    background-color: transparent;
+                    color: $accentlight;
+                    margin-left: 2.5rem;
+                    &:hover{
+                        transition-timing-function: ease-in-out;
+                        transition: .3s;
+                        // background-color: $secondary;
+                        border: 2px solid $secondary;
+                        color: $secondary;
+                    }
+                }
+            }
+            .col-lg-12{
+                h1{
+                    font-size: 16rem;
+                    font-family: Poppins;
+                    font-weight: 600;
+                    color: $accentdark;
+                    opacity: 10%;
+                    text-align: center;
+                    letter-spacing: 5rem;
+                    padding: 1.5rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+#Workstitle-id{
+    padding: 10rem 6rem 8rem;
+    .container-fluid{
+        .row{
+            .col-lg-12{
+                .bottom-line{
+                    position: relative;
+                    .bottom-line-bg{
+                        z-index: 2;
+                        position: absolute;
+                        height: 40%;
+                        width: 10%;
+                        background-color: $accentdark;
+                        margin-top: -1rem;
+                    }
+                    .bottom-line-border{
+                        z-index: 0;
+                        position: absolute;
+                        height: 40%;
+                        width: 10%;
+                        border: 2px solid $accentlight;
+                        margin-left: 2rem;
+                        margin-top: -2.5rem;
+                    }
+                    h1{
+                        z-index: 3;
+                        position: relative;
+                        font-size: 5rem;
+                        color: $secondary;
+                        font-family: Poppins;
+                        font-weight: 600;
+                        padding-left: 3.5rem;
+                        // line-height: 4.5rem;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+
+#Navigation-id{
+    .scrollsass {
+        padding: 3.5rem 5rem !important;
+        background-color: rgba($primary, .5);
+        backdrop-filter: blur(10px);
+        transition-timing-function: ease-in-out;
+        transition: .3s;
+    }
+    .navbar{
+        padding: 6rem 5rem;
+        z-index:99 !important;
+        a{
+            color: #05C6F0 !important;
+            font-family: Poppins;
+            padding: 0rem 2rem;
+        }
+
+        .collapse{
+            ul{
+                li{
+                    a{
+                        color: #05C6F0 !important;
+                    }
+                    .main-nav-active{
+                        color: $secondary !important;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}

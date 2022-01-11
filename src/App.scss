@@ -1,0 +1,58 @@
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+$primary:#000000;
+$secondary:#FFFFFF;
+$accentlight:#05C6F0;
+$accentdark:#105767;
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lora', serif;
+  scroll-behavior: smooth;
+  font-weight: bold;
+
+  font-size: 16px;
+}
+
+
+::-webkit-scrollbar{
+  display: none;
+}
+// ::-webkit-scrollbar-thumb {
+//   background-color: blue;
+//   background-color: blue;
+// }
+
+
+
+
+@import './Assets/Sass/apps.scss';
+
+
+// components sass
+@import './Assets/Sass/Homesass/Navigationsass.scss';
+@import './Assets/Sass/Homesass/Hometextsass.scss';
+
+@import './Assets/Sass/Aboutsass/Aboutsass.scss';
+@import './Assets/Sass/Aboutsass/Aboutcontentsass.scss';
+@import './Assets/Sass/Aboutsass/Aboutskillssass.scss';
+
+
+@import './Assets/Sass/Worksass/Worktitle.scss';
+@import './Assets/Sass/Worksass/Workproject.scss';
+@import './Assets/Sass/Worksass/Workoption.scss';
+@import './Assets/Sass/Worksass/Workselection.scss';
+
+@import './Assets/Sass/Contactsass/Contactgroupsass.scss';
+@import './Assets/Sass/Contactsass/Contacttitlesass.scss';
+@import './Assets/Sass/Contactsass/Contactcontentsass.scss';
+
+
+// Media Query Responsiveness
+@import './Assets/Sass/ResponsiveQuery.scss';

@@ -1,0 +1,37 @@
+#Worklist-id{
+    padding: 6rem 10rem 12rem;
+    ::-webkit-scrollbar {
+        width: 10px;
+        display: block;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: $accentlight;
+    }
+    .container-fluid{
+        .row{
+            position: relative;
+            .col-lg-12{
+                .wrapper{
+                    display: flex;
+                    overflow-x: auto;
+                    overflow-y: hidden;
+                    overflow: auto;
+                    .item{
+                        position: relative;
+                        text-align: center;
+                        padding: 2.5rem 0;
+                        z-index: 1;
+                        img{
+                            &:hover{
+                                box-shadow: 3px 10px 30px rgba($accentdark, .7) ;
+                            }
+                        }
+                        .image-gap{
+                            margin-left: 2.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

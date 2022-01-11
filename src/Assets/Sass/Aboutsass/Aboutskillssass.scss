@@ -1,0 +1,50 @@
+#skills-id{
+    .container-fluid{
+        .row{
+            .col-lg-1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 7rem 1.5rem 3rem;
+                i{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: $primary;
+                    font-size: 6rem;
+                    background-color: $accentdark;
+                    width: 100%;
+                    height: 70%;
+                    padding: 1rem;
+                    margin-top: 3rem;
+                    img{
+                        width: 100%;                        
+                    }
+                    .ps{
+                        padding-bottom: 0rem;
+                    }
+                    span{
+                        display: none;
+                        font-size: 1.5rem;
+                        font-family: Montserrat;
+                        font-weight: 600;
+                        color: $accentlight;
+                        position: absolute;
+                        bottom: 0;
+                        text-align: center;
+                    }
+                    &:hover{
+                        transition-timing-function: ease-in-out;
+                        transition: .3s;
+                        margin-top: 0rem;
+                        span{
+                            display: block;
+                            transition-timing-function: ease-in-out;
+                            transition: .3s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

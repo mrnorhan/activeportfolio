@@ -1,0 +1,89 @@
+#Hometext-id{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 1rem;
+    z-index: 1;
+    .container{
+        .row{
+            .col-lg-12{
+                .padding-top{
+                    padding-top: 2rem;
+                }
+                .left-line{
+                    position: relative;
+                    .left-line-bg{
+                        z-index: 2;
+                        position: absolute;
+                        height: 100%;
+                        width: 40px;
+                        background-color: $accentdark;
+                        margin-left: -42px;
+                    }
+                    .left-line-border{
+                        z-index: 0;
+                        position: absolute;
+                        margin-top: 2rem;
+                        height: 100%;
+                        width: 40px;
+                        border: 2px solid $accentlight;
+                        margin-left: -24px;
+                    }
+                    h1{
+                        z-index: 9999;
+                        position: relative;
+                        color: $secondary;
+                        font-size: 5.5rem;
+                        font-family: poppins;
+                        font-weight: 600;
+                        margin-top: -1rem;
+                    }
+                }
+                .sub-content{
+                    padding-top: 3rem;
+                    padding-left: 1rem;
+                    h2, h3, h4, span{
+                        color: rgb(194, 189, 189);
+                        font-size: 2rem;
+                        font-size: 400;
+                    }
+                    h2{
+                        font-family: Poppins;
+                        margin-top: .5rem;
+                        padding-bottom: 1rem;
+                    }
+                    h3{
+                        font-family: Montserrat;
+                    }
+                    h4{
+                        display: inline-block;
+                        margin-left: 10px;
+                    }
+                    strong{
+                        color: $accentlight;
+                    }
+                    button{
+                        background-color: $accentlight;
+                        color: $primary;
+                        font-size: 16px;
+                        font-family: Montserrat;
+                        font-weight: 600;
+                        border-radius: 0;
+                        padding: 18px 64px;
+                        margin-top: 4rem;
+                        
+                        &:hover{
+                            // transform: scale(2); transform: scaleY(2);
+                            transition-timing-function: ease-in-out;
+                            transition: .3s;
+                            background-color: $secondary;
+                            // color: $primary;
+                        }
+                    }     
+                }
+            }
+        }
+    }
+}

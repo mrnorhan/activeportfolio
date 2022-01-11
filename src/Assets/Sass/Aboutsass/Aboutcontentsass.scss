@@ -1,0 +1,136 @@
+#Aboutcontent-id{
+    .container-fluid{
+        .row{
+            .col-lg-6{
+                display: flex;
+                justify-content: left;
+                align-items: center;
+                color: $secondary;
+                img{
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                .padding-top{
+                    padding-top: 1rem;
+                }
+                h1{
+                    font-size: 6rem;
+                    font-family: Poppins;
+                    font-weight: 600;
+                    margin-top: -1.5rem;
+                    text-align: left !important;
+                }
+                h2{
+                    font-size: 4rem;
+                    font-family: Poppins;
+                    font-weight: 400;
+                }
+                h3{
+                    font-size: 2rem;
+                    font-family: Montserrat;
+                    font-weight: 400;
+                    color: $accentlight;
+                }
+                i{
+                    color: $accentlight;
+                    font-size: 3rem;
+                    padding-top: 4rem;
+                    &:hover{
+                        transition-timing-function: ease-in-out;
+                        transition: .3s;
+                        color: $secondary;
+                    }
+                }
+                .left-distance{
+                    margin-left: 2.5rem;
+                }
+
+            }
+            .col-lg-12{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                .skills-icon{
+                    position: absolute;
+                }
+                h1{
+                    font-size: 18rem;
+                    font-family: Poppins;
+                    font-weight: 600;
+                    color: $accentdark;
+                    opacity: 15%;
+                    text-align: center;
+                    letter-spacing: 8rem;
+                    padding: .5rem 1.5rem 1.5rem 10rem;
+                }
+                i{
+                    color: $accentlight;
+                    font-size: 7rem;
+                    padding-top: 4rem;
+                    margin-left: auto;
+                    margin-right: auto;
+                    span{
+                        display: none;
+                        font-size: 1.5rem;
+                        font-family: Montserrat;
+                        font-weight: 600;
+                        color: $accentlight;
+                        position: absolute;
+                        padding-top: 2rem;
+                    }
+                    &:hover{
+                        transition-timing-function: ease-in-out;
+                        transition: .3s;
+                        color: $secondary;
+                        span{
+                            display: block;
+                            transition-timing-function: ease-in-out;
+                            transition: .3s;
+                        }
+                    }
+                }
+                .skills-icon-ld{
+                    margin-left: 8rem;
+                }
+            }
+        }
+    }
+    #arrowAnimation{
+        .container-fluid{
+            .row{
+                .col-md-12{
+                    .arrow-down{
+                        img{
+                            padding: 3rem;
+                            margin-top: -6rem !important;
+                            animation: fade-slide-up 1s 1s ease-out forwards,
+                                pulse 1s 0s ease-out infinite;
+                            opacity: 0;
+                            z-index: 2 !important;
+                            &:hover{
+                                transition: all .2s ease-in-out;
+                                transform: scale(1.2);
+                                padding-bottom: 2.4rem;
+                            }
+                        }
+                        @keyframes pulse {
+                            0% {
+                                opacity: 1;
+                                transform: none;
+                            }
+                            50% {
+                                opacity: .8;
+                                transform: scale(.8);
+                            }
+                            100% {
+                                opacity: 1;
+                                transform: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
